@@ -1,1 +1,5 @@
-<p *ngFor="let ship of ships">{{ship.name}}</p>
+<div *ngFor="let ship of ships2">
+    <p style="color:{{ship.flag}}">
+        {{ship.name}} - {{ship.status}}
+    </p>
+</div>

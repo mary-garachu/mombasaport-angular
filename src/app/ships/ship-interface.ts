@@ -3,3 +3,9 @@ export interface Ship {
     flag: string;
     type: string;
 }
+
+export interface Ship2 {
+    name: string;
+    flag: string;
+    status: string;
+}
